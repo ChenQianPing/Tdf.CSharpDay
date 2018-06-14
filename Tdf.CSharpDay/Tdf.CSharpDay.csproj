@@ -65,8 +65,30 @@
     <Compile Include="Chapter5\TestConcurrency02.cs" />
     <Compile Include="Chapter5\TestConcurrency03.cs" />
     <Compile Include="Chapter5\TestConcurrency04.cs" />
+    <Compile Include="Chapter5\TestConcurrency05.cs" />
+    <Compile Include="Chapter6\Product.cs" />
+    <Compile Include="Chapter6\TestThreadSync01.cs" />
+    <Compile Include="Chapter6\TestThreadSync02.cs" />
+    <Compile Include="Chapter6\TestThreadSync03.cs" />
+    <Compile Include="Chapter6\TestThreadSync04.cs" />
+    <Compile Include="Chapter6\TestThreadSync05.cs" />
+    <Compile Include="Chapter6\TestThreadSync06.cs" />
+    <Compile Include="Chapter6\TestThreadSync07.cs" />
+    <Compile Include="Chapter6\TestThreadSync08.cs" />
+    <Compile Include="Chapter6\TestThreadSync09.cs" />
+    <Compile Include="Chapter7\Product.cs" />
+    <Compile Include="Chapter7\TestParallelLinq01.cs" />
+    <Compile Include="Chapter7\TestParallelLinq02.cs" />
+    <Compile Include="Chapter7\TestParallelLinq03.cs" />
+    <Compile Include="Chapter7\TestParallelLinq04.cs" />
+    <Compile Include="Chapter7\TestParallelLinq05.cs" />
+    <Compile Include="Chapter7\TestParallelLinq06.cs" />
+    <Compile Include="Chapter7\TestParallelLinq07.cs" />
+    <Compile Include="Chapter7\TestParallelLinq08.cs" />
+    <Compile Include="Chapter7\TestParallelLinq09.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
