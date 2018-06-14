@@ -42,6 +42,29 @@
   <ItemGroup>
     <Compile Include="Chapter1\Encrypter.cs" />
     <Compile Include="Chapter1\TestEncrypter.cs" />
+    <Compile Include="Chapter2\Company.cs" />
+    <Compile Include="Chapter2\School.cs" />
+    <Compile Include="Chapter2\TestLinQ.cs" />
+    <Compile Include="Chapter2\User.cs" />
+    <Compile Include="Chapter3\Product.cs" />
+    <Compile Include="Chapter3\TestParallel01.cs" />
+    <Compile Include="Chapter3\TestParallel02.cs" />
+    <Compile Include="Chapter3\TestParallel03.cs" />
+    <Compile Include="Chapter3\TestParallel04.cs" />
+    <Compile Include="Chapter3\TestParallel05.cs" />
+    <Compile Include="Chapter4\Product.cs" />
+    <Compile Include="Chapter4\TestTask01.cs" />
+    <Compile Include="Chapter4\TestTask02.cs" />
+    <Compile Include="Chapter4\TestTask03.cs" />
+    <Compile Include="Chapter4\TestTask04.cs" />
+    <Compile Include="Chapter4\TestTask05.cs" />
+    <Compile Include="Chapter4\TestTask06.cs" />
+    <Compile Include="Chapter4\TestTask07.cs" />
+    <Compile Include="Chapter5\Product.cs" />
+    <Compile Include="Chapter5\TestConcurrency01.cs" />
+    <Compile Include="Chapter5\TestConcurrency02.cs" />
+    <Compile Include="Chapter5\TestConcurrency03.cs" />
+    <Compile Include="Chapter5\TestConcurrency04.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
