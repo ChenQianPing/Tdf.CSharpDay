@@ -3,13 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tdf.AlgorithmDay.Chapter001;
+using Tdf.AlgorithmDay.Chapter002;
+using Tdf.AlgorithmDay.Chapter003;
 using Tdf.CSharpDay.Chapter1;
+using Tdf.CSharpDay.Chapter10;
+using Tdf.CSharpDay.Chapter11;
 using Tdf.CSharpDay.Chapter2;
 using Tdf.CSharpDay.Chapter3;
 using Tdf.CSharpDay.Chapter4;
 using Tdf.CSharpDay.Chapter5;
 using Tdf.CSharpDay.Chapter6;
 using Tdf.CSharpDay.Chapter7;
+using Tdf.CSharpDay.Chapter8;
+using Tdf.CSharpDay.Chapter9;
+
 
 namespace CSharpDay
 {
@@ -79,7 +87,27 @@ namespace CSharpDay
 
             // TestParallelLinq08.TestMethod1();
 
-            TestParallelLinq09.TestMethod1();
+            // TestParallelLinq09.TestMethod1();
+
+            // DynamicDemo01.TestMethod1();
+            // DynamicDemo01.TestMethod2();
+            // DynamicDemo02.TestMethod1();
+
+            // AsynSample01.TestMethod1();
+            // AsynSample01.TestMethod2();
+
+            // TomAndJerryDemo.TestMethod1();
+
+            // new GreedyDemo().TestMethod1();
+            // new DpDemo01().TestMethod1();
+
+            // new DpDemo02().TestMethod1();
+            // new DpDemo02().TestMethod2();
+
+            // ExhaustDemo01.TestMethod1();
+
+            new StrPermutationHelper().Permutation();
+            
 
         }
     }

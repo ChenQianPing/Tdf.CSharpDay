@@ -8,6 +8,10 @@
 * Chapter5——C#并行编程-并发集合
 * Chapter6——C#并行编程-线程同步原语
 * Chapter7——C#并行编程-PLINQ:声明式数据并行
+* Chapter8——新类型 dynamic
+* Chapter9——异步编程
+* Chapter10——猫叫老鼠跑的事件例子
+* Chapter11——输入一个字符串,输出该字符串中字符的所有组合
 *  未完。。。
 
  

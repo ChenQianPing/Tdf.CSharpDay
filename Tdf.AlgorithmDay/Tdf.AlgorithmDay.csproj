@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6119C009-C4D4-4E32-B576-ECAF912422FA}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{9C83AE20-1AD6-41D8-8321-E94BF7A93450}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharpDay</RootNamespace>
-    <AssemblyName>CSharpDay</AssemblyName>
+    <RootNamespace>Tdf.AlgorithmDay</RootNamespace>
+    <AssemblyName>Tdf.AlgorithmDay</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,23 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Chapter001\Goods.cs" />
+    <Compile Include="Chapter001\GreedyDemo.cs" />
+    <Compile Include="Chapter002\DpDemo01.cs" />
+    <Compile Include="Chapter002\DpDemo02.cs" />
+    <Compile Include="Chapter003\ExhaustDemo01.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tdf.AlgorithmDay\Tdf.AlgorithmDay.csproj">
-      <Project>{9c83ae20-1ad6-41d8-8321-e94bf7a93450}</Project>
-      <Name>Tdf.AlgorithmDay</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tdf.CSharpDay\Tdf.CSharpDay.csproj">
-      <Project>{99660347-9013-4eb2-98ab-9adb41ab4bcb}</Project>
-      <Name>Tdf.CSharpDay</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter10\TomAndJerryDemo.cs" />
+    <Compile Include="Chapter11\StrPermutationHelper.cs" />
     <Compile Include="Chapter1\Encrypter.cs" />
     <Compile Include="Chapter1\TestEncrypter.cs" />
     <Compile Include="Chapter2\Company.cs" />
@@ -86,7 +88,15 @@
     <Compile Include="Chapter7\TestParallelLinq07.cs" />
     <Compile Include="Chapter7\TestParallelLinq08.cs" />
     <Compile Include="Chapter7\TestParallelLinq09.cs" />
+    <Compile Include="Chapter8\DynamicDemo01.cs" />
+    <Compile Include="Chapter8\DynamicDemo02.cs" />
+    <Compile Include="Chapter8\DynamicUser.cs" />
+    <Compile Include="Chapter9\AsynSample01.cs" />
+    <Compile Include="Chapter9\FileReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Chapter9\Bearer.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
