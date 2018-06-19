@@ -88,6 +88,7 @@ namespace Tdf.CSharpDay.Chapter13
         }
         #endregion
 
+        #region ImageFillRect
         /// <summary>
         /// 将指向图像按指定的填充模式绘制到目标图像上
         /// </summary>
@@ -166,6 +167,7 @@ namespace Tdf.CSharpDay.Chapter13
                 Console.WriteLine(ex.Message);
             }
         }
+        #endregion
 
     }
 }
