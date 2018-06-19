@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Chapter10\TomAndJerryDemo.cs" />
     <Compile Include="Chapter11\StrPermutationHelper.cs" />
+    <Compile Include="Chapter12\MyValidateAttribute.cs" />
+    <Compile Include="Chapter12\TestValidateAttribute.cs" />
     <Compile Include="Chapter1\Encrypter.cs" />
     <Compile Include="Chapter1\TestEncrypter.cs" />
     <Compile Include="Chapter2\Company.cs" />

@@ -9,6 +9,7 @@ using Tdf.AlgorithmDay.Chapter003;
 using Tdf.CSharpDay.Chapter1;
 using Tdf.CSharpDay.Chapter10;
 using Tdf.CSharpDay.Chapter11;
+using Tdf.CSharpDay.Chapter12;
 using Tdf.CSharpDay.Chapter2;
 using Tdf.CSharpDay.Chapter3;
 using Tdf.CSharpDay.Chapter4;
@@ -106,8 +107,11 @@ namespace CSharpDay
 
             // ExhaustDemo01.TestMethod1();
 
-            new StrPermutationHelper().Permutation();
-            
+            // new StrPermutationHelper().Permutation();
+
+            TestValidateAttribute.TestMethod1();
+
+
 
         }
     }
