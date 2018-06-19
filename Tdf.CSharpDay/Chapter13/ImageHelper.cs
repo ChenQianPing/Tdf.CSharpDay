@@ -10,6 +10,54 @@ namespace Tdf.CSharpDay.Chapter13
 {
     public class ImageHelper
     {
+
+        public static void TestMethod2()
+        {
+            var lstRects = new List<Rectangle>
+            {
+                new Rectangle(0, 0, 640, 960),
+                new Rectangle(0, 0, 640, 1136),
+                new Rectangle(0, 0, 750, 1334),
+                new Rectangle(0, 0, 1242, 2208),
+                new Rectangle(0, 0, 2208, 1242),
+                new Rectangle(0, 0, 1125, 2436),
+                new Rectangle(0, 0, 2436, 1125),
+
+                new Rectangle(0, 0, 768, 1004),
+                new Rectangle(0, 0, 1024, 748),
+                new Rectangle(0, 0, 768, 1024),
+                new Rectangle(0, 0, 1024, 768),
+
+                new Rectangle(0, 0, 1536, 2008),
+                new Rectangle(0, 0, 2048, 1496),
+                new Rectangle(0, 0, 1536, 2048),
+                new Rectangle(0, 0, 2048, 1536),
+
+                new Rectangle(0, 0, 480, 762),
+                new Rectangle(0, 0, 720, 1242),
+                new Rectangle(0, 0, 1080, 1882)
+            };
+
+            foreach (var rect in lstRects)
+            {
+                var str = @"博学云";
+                Bitmap bmp = TextToBitmap(str, new Font("方正静蕾简体", 40), rect, Color.Black, Color.White);
+                var directory = $@"F:\\AppImages";
+                var filename = $@"{rect.Width}x{rect.Height}";
+
+                var filePath = $@"{directory}\\{filename}.png";
+
+                // bmp.Save(directory + "\\save.png", ImageFormat.Png);
+                Console.WriteLine(filePath);
+                bmp.Save(filePath, ImageFormat.Png);
+            }
+
+            Console.WriteLine("Picture generation success");
+            Console.ReadLine();
+
+        }
+
+
         public static void TestMethod1()
         {
             var str = @"博学云";
@@ -18,12 +66,13 @@ namespace Tdf.CSharpDay.Chapter13
 
             /*
              * 得到Bitmap(传入Rectangle.Empty自动计算宽高)
-             * Font：Arial、叶根友毛笔行书2.0版
+             * Font：Arial、叶根友毛笔行书2.0版、方正静蕾简体
              */
-            Bitmap bmp = TextToBitmap(str, new Font("叶根友毛笔行书2.0版", 32), rect, Color.Black, Color.White);
+            Bitmap bmp = TextToBitmap(str, new Font("方正静蕾简体", 40), rect, Color.Black, Color.White);
 
             // 保存到桌面save.jpg
-            var directory = System.Environment.GetFolderPath(System.Environment.SpecialFolder.DesktopDirectory);
+            // var directory = System.Environment.GetFolderPath(System.Environment.SpecialFolder.DesktopDirectory);
+            var directory = $@"F:\\AppImages";
             bmp.Save(directory + "\\save.png", ImageFormat.Png);
         }
 
@@ -71,7 +120,7 @@ namespace Tdf.CSharpDay.Chapter13
             format.Alignment= StringAlignment.Center;     // 水平居中
 
 
-            var img = Image.FromFile($@"E:\src\Tdf.CSharpDay\Tdf.CSharpDay\Chapter13\logo-v2.png");
+            var img = Image.FromFile($@"F:\Source\Repos\Tdf.CSharpDay\Tdf.CSharpDay\Chapter13\logo-v3.png");
 
             var xx = (rect.Width - img.Width) / 2;
             var yy = (rect.Height - img.Height) / 2;
@@ -82,7 +131,7 @@ namespace Tdf.CSharpDay.Chapter13
 
             // g.DrawImage(img, 0, 0, img.Width, img.Height);
 
-            g.DrawString(text, font, Brushes.Black, rect, format);
+            // g.DrawString(text, font, Brushes.Black, rect, format);
 
             return bmp;
         }

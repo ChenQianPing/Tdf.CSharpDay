@@ -112,7 +112,7 @@ namespace CSharpDay
 
             // TestValidateAttribute.TestMethod1();
 
-            ImageHelper.TestMethod1();
+            ImageHelper.TestMethod2();
 
 
 
