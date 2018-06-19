@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +45,8 @@
     <Compile Include="Chapter11\StrPermutationHelper.cs" />
     <Compile Include="Chapter12\MyValidateAttribute.cs" />
     <Compile Include="Chapter12\TestValidateAttribute.cs" />
+    <Compile Include="Chapter13\FillMode.cs" />
+    <Compile Include="Chapter13\ImageHelper.cs" />
     <Compile Include="Chapter1\Encrypter.cs" />
     <Compile Include="Chapter1\TestEncrypter.cs" />
     <Compile Include="Chapter2\Company.cs" />
@@ -98,6 +101,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Chapter13\logo-v2.png" />
+    <Content Include="Chapter13\logo.png" />
     <Content Include="Chapter9\Bearer.txt" />
   </ItemGroup>
   <ItemGroup />
