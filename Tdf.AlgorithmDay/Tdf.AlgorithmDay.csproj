@@ -45,6 +45,7 @@
     <Compile Include="Chapter002\DpDemo01.cs" />
     <Compile Include="Chapter002\DpDemo02.cs" />
     <Compile Include="Chapter003\ExhaustDemo01.cs" />
+    <Compile Include="Chapter004\BacktrackingDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

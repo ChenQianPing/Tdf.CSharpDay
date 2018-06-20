@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Tdf.AlgorithmDay.Chapter001;
 using Tdf.AlgorithmDay.Chapter002;
 using Tdf.AlgorithmDay.Chapter003;
+using Tdf.AlgorithmDay.Chapter004;
 using Tdf.CSharpDay.Chapter1;
 using Tdf.CSharpDay.Chapter10;
 using Tdf.CSharpDay.Chapter11;
@@ -112,7 +113,11 @@ namespace CSharpDay
 
             // TestValidateAttribute.TestMethod1();
 
-            ImageHelper.TestMethod2();
+            // ImageHelper.TestMethod2();
+
+            BacktrackingDemo.TestMethod1();
+
+            Console.ReadKey();
 
 
 
