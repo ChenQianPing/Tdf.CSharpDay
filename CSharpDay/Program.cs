@@ -12,6 +12,7 @@ using Tdf.CSharpDay.Chapter10;
 using Tdf.CSharpDay.Chapter11;
 using Tdf.CSharpDay.Chapter12;
 using Tdf.CSharpDay.Chapter13;
+using Tdf.CSharpDay.Chapter14;
 using Tdf.CSharpDay.Chapter2;
 using Tdf.CSharpDay.Chapter3;
 using Tdf.CSharpDay.Chapter4;
@@ -115,10 +116,10 @@ namespace CSharpDay
 
             // ImageHelper.TestMethod2();
 
-            BacktrackingDemo.TestMethod1();
+            // BacktrackingDemo.TestMethod1();
 
-            Console.ReadKey();
-
+            AsyncDemo.TestMethod1();
+            AsyncDemo.TestMethod2();
 
 
         }

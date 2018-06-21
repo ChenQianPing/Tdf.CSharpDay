@@ -47,6 +47,7 @@
     <Compile Include="Chapter12\TestValidateAttribute.cs" />
     <Compile Include="Chapter13\FillMode.cs" />
     <Compile Include="Chapter13\ImageHelper.cs" />
+    <Compile Include="Chapter14\AsyncDemo.cs" />
     <Compile Include="Chapter1\Encrypter.cs" />
     <Compile Include="Chapter1\TestEncrypter.cs" />
     <Compile Include="Chapter2\Company.cs" />
