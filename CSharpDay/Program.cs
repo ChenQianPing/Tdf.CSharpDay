@@ -13,6 +13,7 @@ using Tdf.CSharpDay.Chapter11;
 using Tdf.CSharpDay.Chapter12;
 using Tdf.CSharpDay.Chapter13;
 using Tdf.CSharpDay.Chapter14;
+using Tdf.CSharpDay.Chapter15;
 using Tdf.CSharpDay.Chapter2;
 using Tdf.CSharpDay.Chapter3;
 using Tdf.CSharpDay.Chapter4;
@@ -118,9 +119,13 @@ namespace CSharpDay
 
             // BacktrackingDemo.TestMethod1();
 
-            AsyncDemo.TestMethod1();
-            AsyncDemo.TestMethod2();
+            // AsyncDemo.TestMethod1();
+            // AsyncDemo.TestMethod2();
 
+            // QiniuDemo.TestMethod1();
+
+
+            new QiniuDemo().DownloadFile();
 
         }
     }
