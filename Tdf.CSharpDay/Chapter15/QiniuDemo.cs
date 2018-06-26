@@ -36,7 +36,7 @@ namespace Tdf.CSharpDay.Chapter15
             var mac = new Mac(AccessKey, SecretKey);
             var bucket = Bucket;
             var saveKey = "1-1.jpg";
-            var localFile = @"E:\src\Tdf.S01\Tdf.Resources\Pic\Scan\1-1.jpg";
+            var localFile = @"E:\src\Tdf.S01\Tdf.Resources\Pic\Scan\1-2.jpg";
 
             // 上传策略，参见 
             // https://developer.qiniu.com/kodo/manual/put-policy
@@ -223,6 +223,7 @@ ref-text:
 
 
 https://developer.qiniu.com/dora/manual/3683/img-directions-for-use
+
 原图	
 http://pav6nuon9.bkt.clouddn.com/1-1.jpg
 瘦身后的图片
@@ -240,5 +241,19 @@ http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/blur/3x5
 把一张图片变成圆角
 http://pav6nuon9.bkt.clouddn.com/1-1.jpg?roundPic/radius/50
 
+裁剪操作：
+考号区      http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!375x397a1109a477
+选择题(OMR) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1246x204a283a905
+主观题(5) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1230x284a267a1159
+主观题(6) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1227x268a265a1416
+主观题(9) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1232x312a271a1652
+主观题(13) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1277x597a1624a239
+主观题(15) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1264x379a1629a772
+主观题(16) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1274x202a1624a1127
+主观题(20) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1272x292a1624a1269
+主观题(21) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1272x489a1627a1502
 
+X	Y	Width	Height
+252	257	2602	1727
+主观题(22)，作文 http://pav6nuon9.bkt.clouddn.com/1-2.jpg?imageMogr2/crop/!2602x1727a252a257
  */
