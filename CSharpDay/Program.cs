@@ -125,7 +125,7 @@ namespace CSharpDay
             // QiniuDemo.TestMethod1();
 
 
-            new QiniuDemo().DownloadFile();
+            new QiniuDemo().UploadFile();
 
         }
     }

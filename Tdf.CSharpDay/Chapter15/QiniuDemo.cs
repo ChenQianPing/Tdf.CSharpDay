@@ -35,8 +35,8 @@ namespace Tdf.CSharpDay.Chapter15
             // 实际应用中，请自行设置您的AccessKey和SecretKey
             var mac = new Mac(AccessKey, SecretKey);
             var bucket = Bucket;
-            var saveKey = "1-1.jpg";
-            var localFile = @"E:\src\Tdf.S01\Tdf.Resources\Pic\Scan\1-2.jpg";
+            var saveKey = "Directory1/1-1.jpg";
+            var localFile = @"E:\src\Tdf.S01\Tdf.Resources\Pic\Scan\1-1.jpg";
 
             // 上传策略，参见 
             // https://developer.qiniu.com/kodo/manual/put-policy
@@ -242,6 +242,9 @@ http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/blur/3x5
 http://pav6nuon9.bkt.clouddn.com/1-1.jpg?roundPic/radius/50
 
 裁剪操作：
+X	Y	Width	Height
+1109	477	375	397
+
 考号区      http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!375x397a1109a477
 选择题(OMR) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1246x204a283a905
 主观题(5) http://pav6nuon9.bkt.clouddn.com/1-1.jpg?imageMogr2/crop/!1230x284a267a1159
